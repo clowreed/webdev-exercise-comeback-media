@@ -5,7 +5,7 @@ export function P({
   children: React.ReactNode;
   className?: string;
 }) {
-  const mergedClassName = `text-lg text-secondary pb-6 ${className}`;
+  const mergedClassName = `text-base lg:text-lg text-secondary pb-6 ${className}`;
   return (
     <>
       <p className={mergedClassName}>{children}</p>

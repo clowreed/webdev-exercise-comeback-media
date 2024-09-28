@@ -10,7 +10,7 @@ export function AuthorInfo({
 }) {
   return (
     <>
-      <div className="w-fit mx-auto my-6 block lg:hidden">
+      <div className="w-fit lg:mx-auto mt-8 block lg:hidden">
         <div className="flex items-center gap-x-2">
           <Image
             src={url}
