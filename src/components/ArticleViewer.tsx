@@ -92,7 +92,7 @@ export default function ArticleViewer({
   return (
     <div className="relative">
       <ProgressBar progress={progress} />
-      <div className="max-w-[1440px] mx-auto">
+      <div className="max-w-full 2xl:max-w-[1440px] mx-auto">
         <ArticleContent article={articles[currentArticleIndex]} />
         <div ref={endOfArticleRef} className="h-32" />
       </div>
