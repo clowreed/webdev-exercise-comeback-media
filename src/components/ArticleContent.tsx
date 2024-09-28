@@ -67,49 +67,6 @@ export default function ArticleContent({ article }: { article: Article }) {
           <P>{article.conclusion}</P>
         </div>
       </section>
-      {
-        // <div className="max-w-3xl px-6">
-        //   {article.body.map((item: ArticleBodyItem, index: number) => {
-        //     switch (item.type) {
-        //       case "p":
-        //         return (
-        //           <P key={index} className="text-justify">
-        //             {item.content}
-        //           </P>
-        //         );
-        //       case "h2":
-        //         return <H2 key={index}>{item.content}</H2>;
-        //       case "h3":
-        //         return <H3 key={index}>{item.content}</H3>;
-        //       case "img":
-        //         return (
-        //           <Figure
-        //             key={index}
-        //             url={item.url || ""}
-        //             caption={item.caption || ""}
-        //           />
-        //         );
-        //       case "quote":
-        //         return (
-        //           <Blockquote
-        //             key={index}
-        //             content={item.content}
-        //             author={item.author}
-        //           />
-        //         );
-        //       case "divider":
-        //         return <HR />;
-        //       default:
-        //         return null;
-        //     }
-        //   })}
-        //   <div className="w-full h-full my-5 rounded-2xl p-8 bg-tertiary">
-        //     <H2>Conclusion</H2>
-        //     <P>{article.conclusion}</P>
-        //   </div>
-        // </div>
-        // </>
-      }
     </article>
   );
 }
