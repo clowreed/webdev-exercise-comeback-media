@@ -1,12 +1,5 @@
 import Image from "next/image";
-import H1 from "./articles/H1";
-import H2 from "./articles/H2";
-import H3 from "./articles/H3";
-import HR from "./articles/HR";
-import P from "./articles/P";
-import AuthorInfo from "./articles/AuthorInfo";
-import Figure from "./articles/Figure";
-import Blockquote from "./articles/Blockquote";
+import { H1, H2, H3, HR, P, AuthorInfo, Blockquote, Figure } from "./articles";
 import { Article, ArticleBodyItem } from "../types/article";
 
 export default function ArticleContent({ article }: { article: Article }) {

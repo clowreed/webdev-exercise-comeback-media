@@ -1,4 +1,4 @@
-export default function H1({
+export function H1({
   children,
   className,
 }: {

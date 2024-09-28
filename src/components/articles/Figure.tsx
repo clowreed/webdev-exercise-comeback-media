@@ -1,11 +1,5 @@
 import Image from "next/image";
-export default function Figure({
-  url,
-  caption,
-}: {
-  url: string;
-  caption: string;
-}) {
+export function Figure({ url, caption }: { url: string; caption: string }) {
   return (
     <>
       <figure className="w-[720px] my-12">

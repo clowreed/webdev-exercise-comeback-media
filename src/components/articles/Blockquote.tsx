@@ -1,4 +1,4 @@
-export default function Blockquote({
+export function Blockquote({
   content,
   author,
 }: {

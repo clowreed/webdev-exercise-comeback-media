@@ -1,4 +1,4 @@
-export default function HR({ className }: { className?: string }) {
+export function HR({ className }: { className?: string }) {
   const mergedClassName = `my-8 text-secondary ${className}`;
   return (
     <>

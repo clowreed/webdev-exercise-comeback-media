@@ -1,4 +1,4 @@
-export default function P({
+export function P({
   children,
   className,
 }: {

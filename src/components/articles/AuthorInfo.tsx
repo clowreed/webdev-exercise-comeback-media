@@ -1,5 +1,5 @@
 import Image from "next/image";
-export default function AuthorInfo({
+export function AuthorInfo({
   url,
   name,
   role,

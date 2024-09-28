@@ -1,4 +1,4 @@
-export default function H3({
+export function H3({
   children,
   className,
 }: {
